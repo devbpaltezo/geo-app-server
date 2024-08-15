@@ -2,19 +2,19 @@
 
 ## Overview
 
-The Geo App Backend is a RESTful API built using Node.js (Express) or Laravel that allows users to log in, retrieve their geolocation information based on their IP address, and maintain a history of IP lookups. The app connects to a MySQL/PostgreSQL database to store user data and history records.
+The Geo App Backend is a RESTful API built using Node.js (Express) that allows users to log in, retrieve their geolocation information based on their IP address, and maintain a history of IP lookups. The app connects to a MySQL database to store user data and history records.
 
 ## Features
 
 - User authentication using JWT (JSON Web Tokens)
 - Fetch geolocation information based on IP address
-- Store and retrieve search history in a relational database (MySQL/PostgreSQL)
+- Store and retrieve search history in a relational database (MySQL)
 - Secure API endpoints using middleware for authentication
 - Basic error handling and input validation
 
 ## Requirements
 
-- Node.js (for Express version) or PHP (for Laravel version)
+- Node.js (for Express version)
 - MySQL
 - npm (Node Package Manager)
 - Git (optional)
