@@ -35,6 +35,12 @@ npm install
 #### Install MySQL on your operating system if not yet installed
  - [https://www.mysql.com/]
 
+
+### Check Database Credentials
+ - Open .env file
+ - Change DB_USERNAME and DB_PASSWORD with your user name and password
+ 
+
 ### Run the User Seed
 
 ```bash
